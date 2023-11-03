@@ -20,7 +20,9 @@
  */
 
 var junkFood = ['burger', 'fries', 'pizza'];
+
 var healthyFood = ['vegetable', 'rice', 'milk'];
+
 var food = junkFood.concat(healthyFood);
 console.log(food); // [ 'burger', 'fries', 'pizza', 'vegetable', 'rice', 'milk' ]
 
