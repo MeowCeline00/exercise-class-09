@@ -39,7 +39,7 @@ console.log(food); // [ 'burger', 'fries', 'pizza', 'vegetable', 'rice', 'milk' 
  * Row 1     boy         cat         yellow         13
  * Row 2     girl        rabbit        blue         17
  * then use console.table() to showcase the information in a table.
- * then based on the values stored in the schedule 2D array, console log out the following sentence (use backticks):
+ * then based on the values stored in the preference 2D array, console log out the following sentence (use backticks):
  * "Tom is a _13_ years old _boy_, he has a _yellow_ _cat_."
  *  
  */
@@ -52,10 +52,10 @@ var preference = [
 console.table(preference);
 
 
-var ageRow1 = preference[0][3];
-var genderRow1 = preference[0][0];
-var color1Row1 = preference[0][2];
-var animalRow1 = preference[0][1];
+var age = preference[0][3];
+var gender = preference[0][0];
+var color = preference[0][2];
+var animal = preference[0][1];
 
-var sentence = `Tom is a ${ageRow1} years old ${genderRow1}, he has a ${color1Row1} ${animalRow1}.`;
+var sentence = `Tom is a ${age} years old ${gender}, he has a ${color} ${animal}.`;
 console.log(sentence); // Tom is a 13 years old boy, he has a yellow cat.
