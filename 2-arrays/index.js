@@ -59,5 +59,3 @@ var animalRow1 = preference[0][1];
 
 var sentence = `Tom is a ${ageRow1} years old ${genderRow1}, he has a ${color1Row1} ${animalRow1}.`;
 console.log(sentence); // Tom is a 13 years old boy, he has a yellow cat.
-
-
